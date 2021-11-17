@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>日本の道路標識</title>
+</head>
+<body>
+    <h1>日本の道路標識</h1>
+    <form id="quiz" name="quiz">
+        <p><br><img src="https://tokyodayroi.com/img/images/luat-giao-thong-tai-nhat-17.png" 
+            height=100pt; width=100pt; class="traffic"><br>
+        1. Biển báo trên có nghĩa là gỉ?</p>
+        <input type="radio"  name="question1" value="1a">Cấm đi ngược chiều <br>
+        <input type="radio"  name="question1" value="1a1">Tình yêu phía trước <br>
+        <input type="radio"  name="question1" value="1a2">Được đi thẳng <br>
+        <input type="radio"  name="question1" value="1a3">Dừng lại <br>
+
+        <p><br><img src="https://tokyodayroi.com/img/images/luat-giao-thong-tai-nhat-19.png" 
+            height=100pt; width=100pt; class="traffic"><br>
+        2. Biển báo trên có nghĩa là gỉ?</p>
+        <input type="radio"  name="question2" value="2a">Ưu tiên người đi bộ<br>
+        <input type="radio"  name="question2" value="2a1">Dừng lại <br>
+        <input type="radio"  name="question2" value="2a2">Được đi thẳng<br>
+        <input type="radio"  name="question2" value="2a3">Cấm tất cả các loại xe<br>
+
+        <p><br><img src="https://tokyodayroi.com/img/images/12.png" 
+            height=100pt; width=100pt; class="traffic"><br>
+        3. Biển báo trên có nghĩa là gỉ?</p>
+        <input type="radio"  name="question3" value="3a"> Dừng lại<br>
+        <input type="radio"  name="question3" value="3a1">Được đi thẳng<br>
+        <input type="radio"  name="question3" value="3a2">Cấm lưu thông<br>
+        <input type="radio"  name="question3" value="3a3">Có cảnh sát <br>
+
+        <p><br><img src="https://tokyodayroi.com/img/images/luat-giao-thong-tai-nhat-18.png" 
+            height=100pt; width=100pt; class="traffic"><br>
+        4. Biển báo trên có nghĩa là gỉ?</p>
+        <input type="radio"  name="question4" value="4a"> Dừng lại<br>
+        <input type="radio"  name="question4" value="4a1">Được đi thẳng<br>
+        <input type="radio"  name="question4" value="4a2">Cấm lưu thông<br>
+        <input type="radio"  name="question4" value="4a3">Đi chậm lại ＜10km/h <br>
+        
+        <p><br><img src="https://tokyodayroi.com/img/images/12.png" 
+            height=100pt; width=100pt; class="traffic"><br>
+        5. Biển báo trên có nghĩa là gỉ?</p>
+        <input type="radio"  name="question5" value="5a"> Dừng lại<br>
+        <input type="radio"  name="question5" value="5a1">Được đi thẳng<br>
+        <input type="radio"  name="question5" value="5a2">Cấm lưu thông<br>
+        <input type="radio"  name="question5" value="5a3">Biển tạm dừng <br>
+
+
+            <input id="button" type="button" value="submit" onclick="check();">
+    </form>
+
+    <div>
+        <p id="number_correct"></p>
+    </div>
+
+    <button onclick="myFunction()">Restart</button>
+</body>
+</html>
